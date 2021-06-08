@@ -14,5 +14,5 @@ app.use('/uploads', express.static('uploads'));
 
 
 
-const port =  5000;
+const port = prosses.env.PORT | 5000;
 app.listen(port, ()=>console.log(`Running on port : ${port}`));
