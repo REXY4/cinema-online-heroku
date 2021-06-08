@@ -1,3 +1,3 @@
-release : node_modules/.bin/sequelize db:migrate
+release : npx sequelize db:migrate
 
 web : node server.js
